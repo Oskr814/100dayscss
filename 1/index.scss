@@ -1,0 +1,56 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+// use only the available space inside the 400x400 frame
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+  // Gradient
+  background: rgb(67,64,161);
+  background: linear-gradient(45deg, rgba(67,64,161,1) 0%, rgba(77,193,200,1) 100%);
+
+  border-radius: 7px;
+  color: white;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.content {
+  font-weight: bold;
+  text-align: left;
+  line-height: 75px;
+}
+
+.text-xl {
+  font-size: 6.5em;
+  margin-left: -20px;
+}
+
+.text-lg {
+  font-size: 5em;
+}
+
+.text-md {
+  font-size: 1.2em;
+  line-height: 20px;
+  margin-left: 5px;
+}
